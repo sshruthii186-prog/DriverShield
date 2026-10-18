@@ -1,8 +1,8 @@
-\# 🚗 DriverShield – AI-Based Driver Monitoring System
+🚗 DriverShield – AI-Based Driver Monitoring System
 
 
 
-\## 📌 Project Overview
+📌 Project Overview
 
 
 
@@ -14,27 +14,27 @@ The system processes facial landmarks to estimate eye closure, mouth opening, an
 
 
 
-\## 🎯 Objectives
+🎯 Objectives
 
 
 
-\* Detect prolonged eye closure.
+Detect prolonged eye closure.
 
-\* Identify possible yawning.
+Identify possible yawning.
 
-\* Estimate possible head turns.
+Estimate possible head turns.
 
-\* Record detected events with timestamps and durations.
+Record detected events with timestamps and durations.
 
-\* Display event statistics and history through a dashboard.
-
-
-
-\## ✨ Features
+Display event statistics and history through a dashboard.
 
 
 
-\### 1. Drowsiness Detection
+✨ Features
+
+
+
+1. Drowsiness Detection
 
 
 
@@ -42,7 +42,7 @@ Uses facial landmarks to estimate eye closure and identify prolonged eye closure
 
 
 
-\### 2. Possible Yawn Detection
+2. Possible Yawn Detection
 
 
 
@@ -50,7 +50,7 @@ Estimates mouth opening and records possible yawning events.
 
 
 
-\### 3. Possible Head-Turn Detection
+3. Possible Head-Turn Detection
 
 
 
@@ -58,15 +58,14 @@ Estimates head position using facial landmarks and records possible head turns.
 
 
 
-\### 4. Event Logging
+4. Event Logging
 
 
 
 Stores detected events, timestamps, and estimated durations in `drowsiness\_log.csv`.
 
 
-
-\### 5. Interactive Dashboard
+5. Interactive Dashboard
 
 
 
@@ -74,47 +73,47 @@ Displays:
 
 
 
-\* Total recorded events
+Total recorded events
 
-\* Drowsiness alerts
+Drowsiness alerts
 
-\* Possible yawns
+Possible yawns
 
-\* Possible head turns
+Possible head turns
 
-\* Event summary chart
+Event summary chart
 
-\* Event history table
+Event history table
 
-\* CSV download option
-
-
-
-\## 🛠️ Technologies Used
+CSV download option
 
 
 
-\* Python
-
-\* OpenCV
-
-\* MediaPipe
-
-\* NumPy
-
-\* Pandas
-
-\* Streamlit
-
-\* CSV file handling
+ 🛠️ Technologies Used
 
 
 
-\## 📂 Project Structure
+Python
+
+OpenCV
+
+MediaPipe
+
+NumPy
+
+Pandas
+
+Streamlit
+
+CSV file handling
 
 
 
-```text
+📂 Project Structure
+
+
+
+text
 
 DriverShield/
 
@@ -134,7 +133,7 @@ DriverShield/
 
 └── README.md
 
-```
+
 
 
 
@@ -142,19 +141,19 @@ The `venv` folder contains the Python virtual environment and is not required to
 
 
 
-\## ⚙️ Installation and Setup
+ ⚙️ Installation and Setup
 
 
 
-\### Step 1: Clone the repository
+Step 1: Clone the repository
 
 
 
-```bash
+bash
 
 git clone YOUR\_GITHUB\_REPOSITORY\_URL
 
-```
+
 
 
 
@@ -162,19 +161,19 @@ Replace the placeholder with your actual repository URL.
 
 
 
-\### Step 2: Enter the project folder
+Step 2: Enter the project folder
 
 
 
-```bash
+bash
 
 cd DriverShield
 
-```
 
 
 
-\### Step 3: Create and activate a virtual environment
+
+Step 3: Create and activate a virtual environment
 
 
 
@@ -182,17 +181,17 @@ On Windows Git Bash:
 
 
 
-```bash
+bash
 
 python -m venv venv
 
 source venv/Scripts/activate
 
-```
 
 
 
-\### Step 4: Install dependencies
+
+Step 4: Install dependencies
 
 
 
@@ -200,23 +199,22 @@ Install the required packages:
 
 
 
-```bash
+bash
 
 python -m pip install opencv-python mediapipe numpy pandas streamlit
 
-```
 
 
 
-\### Step 5: Run the monitoring system
+
+Step 5: Run the monitoring system
 
 
 
-```bash
+bash
 
 python eye\_detection.py
 
-```
 
 
 
@@ -224,19 +222,18 @@ Allow webcam access when prompted. Press `Q` to close the monitoring window.
 
 
 
-\### Step 6: Launch the dashboard
+Step 6: Launch the dashboard
 
 
 
 Open another terminal, activate the virtual environment, navigate to the project folder, and run:
 
 
-
-```bash
+bash
 
 python -m streamlit run dashboard.py
 
-```
+
 
 
 
@@ -244,7 +241,7 @@ Open the local address displayed in the terminal, usually `http://localhost:8501
 
 
 
-\## 📊 Output
+📊 Output
 
 
 
@@ -252,7 +249,7 @@ The system records possible drowsiness, yawning, and head-turn events in a CSV f
 
 
 
-\## ⚠️ Limitations
+⚠️ Limitations
 
 
 
@@ -264,23 +261,23 @@ Test the system only in a safe, stationary setting.
 
 
 
-\## 🔮 Future Enhancements
+🔮 Future Enhancements
 
 
 
-\* Improve head-pose estimation.
+Improve head-pose estimation.
 
-\* Calibrate detection thresholds across different users and lighting conditions.
+Calibrate detection thresholds across different users and lighting conditions.
 
-\* Add configurable alerts.
+Add configurable alerts.
 
-\* Explore emergency notification features.
+Explore emergency notification features.
 
-\* Evaluate detection performance using a labelled test dataset.
+Evaluate detection performance using a labelled test dataset.
 
 
 
-\## 👩‍💻 Project Purpose
+👩‍💻 Project Purpose
 
 
 
