@@ -1,5 +1,11 @@
 🚗 DriverShield – AI-Based Driver Monitoring System
 
+🌐 Live Demo
+
+Try DriverShield here: https://drivershield-demo.streamlit.app/
+
+Note: The online dashboard currently uses illustrative sample data. Live webcam detection runs locally on the computer.
+
 
 
 📌 Project Overview
